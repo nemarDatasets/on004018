@@ -1,0 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004018-blue)](https://doi.org/10.82901/nemar.on004018)
+
+Grootswagers T.*, Robinson A.K.*, Carlson T.A. (2019). The representational dynamics of visual objects in rapid serial visual processing streams. NeuroImage, 188, 668-679 https://doi.org/10.1016/j.neuroimage.2018.12.046
+
+See also https://osf.io/a7knv/
