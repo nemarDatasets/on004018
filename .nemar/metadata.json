@@ -1,22 +1,71 @@
 {
   "version": "2.0",
-  "dataset_id": "on004018",
-  "source": "openneuro",
-  "source_id": "ds004018",
+  "pipeline_stage": "validated",
   "title": "EEG recordings for 200 object images presented in RSVP sequences at 5Hz or 20Hz",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Grootswagers, T.": {},
     "Robinson, A.K.": {},
     "Carlson, T.A.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004018.v2.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2018.12.046",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004018",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004018",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "11.3 GB (313 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".png",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from participants viewing 200 object images presented in rapid serial visual presentation (RSVP) sequences at two presentation rates: 5 Hz and 20 Hz. The study investigates the representational dynamics of visual object processing in the human brain during fast sequential visual stimulation, providing insights into temporal aspects of visual perception and neural encoding.",
+  "methods_description": "EEG recordings were collected while participants viewed object images presented in RSVP sequences at two different presentation rates (5 Hz and 20 Hz). The dataset includes recordings for 200 distinct object images.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "rapid serial visual presentation"
+    },
+    {
+      "term": "visual object recognition"
+    },
+    {
+      "term": "representational dynamics"
+    },
+    {
+      "term": "neural encoding"
+    }
+  ],
+  "source_hash": "48f802cd9e11da57ffc5f4dedec6217adbd137f150980f5709cc88fc1da67213"
 }
