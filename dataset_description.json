@@ -1,5 +1,5 @@
 {
-  "BIDSVersion": "1.8.0",
+  "BIDSVersion": "1.11.1",
   "DatasetType": "raw",
   "License": "CC0",
   "Name": "EEG recordings for 200 object images presented in RSVP sequences at 5Hz or 20Hz",
@@ -19,12 +19,5 @@
       "DOI": "doi:10.18112/openneuro.ds004018.v2.0.0"
     }
   ],
-  "Version": "1.0.2",
-  "GeneratedBy": [
-    {
-      "Name": "nemar-cli",
-      "Version": "0.8.8",
-      "CodeURL": "https://github.com/nemar-org/nemar-cli"
-    }
-  ]
+  "Version": "1.0.2"
 }
