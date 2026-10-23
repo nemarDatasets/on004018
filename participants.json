@@ -1,0 +1,16 @@
+{
+  "testing_date": {
+    "Description": "Date the participant's EEG session was recorded, in DD-MM-YYYY format."
+  },
+  "sex": {
+    "Description": "Self-reported biological sex of the participant.",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "age": {
+    "Description": "Age of the participant at the time of recording, in years.",
+    "Units": "years"
+  }
+}
